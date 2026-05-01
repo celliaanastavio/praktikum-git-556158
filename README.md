@@ -53,7 +53,12 @@ konten, dan footer.
 
 Repository baru dibuat di GitHub dengan nama praktikum-git-556158 dengan visibilitas Public. Proses pembuatan dilakukan melalui halaman utama GitHub dengan memilih menu New Repository, kemudian mengisikan nama repository dan memilih visibilitas public. Setelah itu create new repository berhasil dibuat dan siap digunakan.
 
+Tampilan membuat New Repository
+
 ![Membuat Repository](1.%20repo%20baru.png)
+
+New Repository berhasil dibuat
+
 ![Repository Berhasil Dibuat](1.repo%20done.PNG)
 
 ### 2. Clone & Commit
@@ -87,9 +92,11 @@ Total commit yang dilakukan: **7 commit** dengan konvensi Conventional Commits.
 | 2   | chore: add gitignore                                    | chore |
 | 3   | style: change header background color to blue           | style |
 | 4   | feat: add description paragraph in main section         | feat  |
-| 5   | fix: update page title to include NIM                   | fix   |
+| 5   | fix: update page title to include NIU                   | fix   |
 | 6   | docs: add README with project description               | docs  |
 | 7   | docs: add git log screenshot to README                  | docs  |
+
+Commit yang telah dibuat
 
 ![Commit History](1.commit.png)
 
@@ -118,6 +125,8 @@ git log --oneline --graph
 ![Git Log](1.gitlog.png)
 
 Hasil screenshot git log kemudian ditambahkan ke README.md menggunakan sintaks Markdown `![Git Log](gitlog.PNG)` dan di-push ke GitHub.
+
+Tampilan Git Log di README
 
 ![Git Log di README](readme.PNG)
 
@@ -178,7 +187,12 @@ Dibuat 3 Pull Request terpisah di GitHub dengan detail:
 | #2  | feat: Enhance footer with contact info | enhancement | feature/footer |
 | #3  | fix: Correct typo in main paragraph    | bug         | hotfix/typo    |
 
+Contoh langkah membuat Pull Request
+
 ![PR feature/navbar](2.pull%20navbar.png)
+
+Pull Request harus memiliki judul jelas, deskripsi apa yang diubah, dan labelyang sesuai
+
 ![PR hotfix/typo](2.pull%20typo.png)
 
 ### 3. Merge Strategy
@@ -187,10 +201,18 @@ Dibuat 3 Pull Request terpisah di GitHub dengan detail:
 - PR **hotfix/typo** → **Create a merge commit**
 - Setiap branch dihapus setelah merge menggunakan tombol **Delete branch**
 
+Squash & Merge PR NavBar & Hapus Branch
+
 ![Squash and Merge NavBar](2.squash%20navbar.png)
 ![Delete Branch NavBar](2.%20branch%20navbar.png)
+
+Squash & Merge PR Footer & Hapus Branch
+
 ![Squash and Merge Footer](2.squash%20footer.png)
 ![Delete Branch Footer](2.branch%20footer.png)
+
+Merge Commit PR Typo & Hapus Branch
+
 ![Merge Commit Typo](2.merge%20typo.png)
 ![Delete Branch Typo](2.branch%20typo.png)
 
@@ -204,7 +226,13 @@ Pengaturan yang diaktifkan:
 - ✅ Require a pull request before merging
 
 ![Branch Protection Setting](ProtectionSettings.PNG)
+
+Brach Protection Active
+
 ![Branch Protection Active](Protection.PNG)
+
+Setting Branch Protection berhasil dilampirkan di README
+
 ![Branch Protection Setting Terlampir di Readme](protect%20readme.png)
 
 ---
@@ -367,11 +395,13 @@ git push origin main
 
 Dibuat 3 Issues di GitHub melalui tab **Issues → New issue**:
 
-| Issue | Judul                                    | Status    |
-| ----- | ---------------------------------------- | --------- |
-| #4    | feat: tambahkan halaman About            | ✅ Closed |
-| #5    | feat: tambahkan form kontak              | ✅ Closed |
-| #6    | bug: tampilan kurang responsif di mobile | ✅ Closed |
+| Issue | Judul                                    |
+| ----- | ---------------------------------------- |
+| #4    | feat: tambahkan halaman About            |
+| #5    | feat: tambahkan form kontak              |
+| #6    | bug: tampilan kurang responsif di mobile |
+
+Issues berhasil dibuat
 
 ![Issues Dibuat](issue.png)
 
@@ -412,7 +442,10 @@ git push origin fix/responsive
 
 Setiap branch kemudian dibuat Pull Request di GitHub dengan menyertakan `Closes #nomor` pada deskripsi PR, sehingga issue otomatis tertutup saat PR di-merge menggunakan **Squash and merge**.
 
+Contoh Pull Request pada halaman About
 ![Contoh PR Issues About](PRABOUT.png)
+
+Issues berhasil closed
 ![Issues Berhasil Closed](issue%20close.png)
 
 ### 3. Collaborator
@@ -431,7 +464,11 @@ Release v1.0.0 dibuat melalui **Releases → Create a new release** dengan langk
 3. Isi changelog pada Release notes
 4. Klik **Publish release**
 
+Tahapan Release
+
 ![Tahapan Release](prelease.png)
+
+Release v1.0.0
 ![Release v1.0.0](release.png)
 
 ---
