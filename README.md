@@ -191,7 +191,7 @@ Contoh langkah membuat Pull Request
 
 ![PR feature/navbar](2.pull%20navbar.png)
 
-Pull Request harus memiliki judul jelas, deskripsi apa yang diubah, dan labelyang sesuai
+Pull Request harus memiliki judul jelas, deskripsi apa yang diubah, dan label yang sesuai
 
 ![PR hotfix/typo](2.pull%20typo.png)
 
@@ -227,7 +227,7 @@ Pengaturan yang diaktifkan:
 
 ![Branch Protection Setting](ProtectionSettings.PNG)
 
-Brach Protection Active
+Branch Protection Active
 
 ![Branch Protection Active](Protection.PNG)
 
