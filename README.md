@@ -138,7 +138,7 @@ git push origin feature/navbar
 
 Perubahan: Menambahkan navbar dengan link Home, About, Contact.
 
-![Branch feature/navbar](2.feature navbar.png)
+![Branch feature/navbar](2.feature%navbar.png)
 
 **Branch 2 — feature/footer**
 
@@ -152,7 +152,7 @@ git push origin feature/footer
 
 Perubahan: Menambahkan informasi kontak (email & Instagram) dan copyright di footer.
 
-![Branch feature/footer](2.feature footer.png)
+![Branch feature/footer](2.feature%footer.png)
 
 **Branch 3 — hotfix/typo**
 
@@ -205,7 +205,7 @@ Pengaturan yang diaktifkan:
 
 ![Branch Protection Setting](ProtectionSettings.PNG)
 ![Branch Protection Active](Protection.PNG)
-![Branch Protection Setting Terlampir di Readme](protect readme.png)
+![Branch Protection Setting Terlampir di Readme](protect%readme.png)
 
 ---
 
@@ -337,7 +337,7 @@ feat: implement dark mode with dark background and white text
 
 Simpan dan tutup editor kembali.
 
-![Hasil Rebase](hasil rebase.png)
+![Hasil Rebase](hasil%rebase.png)
 
 **Push branch feature/dark-mode ke GitHub**
 
@@ -361,7 +361,7 @@ git commit -m "docs: complete README with full documentation"
 git push origin main
 ```
 
-![README Lengkap](readme lengkap.png)
+![README Lengkap](readme%lengkap.png)
 
 ### 2. Issues
 
@@ -413,7 +413,7 @@ git push origin fix/responsive
 Setiap branch kemudian dibuat Pull Request di GitHub dengan menyertakan `Closes #nomor` pada deskripsi PR, sehingga issue otomatis tertutup saat PR di-merge menggunakan **Squash and merge**.
 
 ![Contoh PR Issues About](PRABOUT.png)
-![Issues Berhasil Closed](issue close.png)
+![Issues Berhasil Closed](issue%close.png)
 
 ### 3. Collaborator
 
